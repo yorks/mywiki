@@ -5,7 +5,7 @@ repo_name: GitHub
 
 theme:
   name: material
-  language: zh-CN
+  language: zh
   features:
     - navigation.tabs        # 顶部导航栏
     - navigation.tracking    # URL随滚动变化
