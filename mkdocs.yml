@@ -13,6 +13,7 @@ theme:
     - navigation.indexes     # 文件夹可点击
     - toc.follow            # 侧边目录跟随
     - content.code.copy     # 代码块复制按钮
+    - content.images.lazy
   palette:
     - scheme: default       # 默认亮色模式
       primary: teal         # 主题色
@@ -32,7 +33,6 @@ plugins:
   - search
   - blog:
       blog_dir: blog        # 博客文章存放目录
-      post_date_format: date
   - tags
 
 markdown_extensions:
@@ -42,3 +42,4 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - attr_list
