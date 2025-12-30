@@ -1,4 +1,4 @@
-site_name: K.I.S.S
+site_name: K.I.S.S - Keep It Simple, Stupid
 site_url: https://yorks.github.io/mywiki/
 repo_url: https://github.com/yorks/mywiki
 repo_name: GitHub
@@ -34,6 +34,7 @@ plugins:
   - blog:
       blog_dir: blog        # 博客文章存放目录
   - tags
+      tags_file: tags.md
 
 markdown_extensions:
   - admonition              # 提示块支持
