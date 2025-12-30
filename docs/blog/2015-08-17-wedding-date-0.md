@@ -1,6 +1,7 @@
 ---
 title: 看日子
 slug: Wedding-pick-date
+date: 2015-08-17
 tags:
   - wedding
   - date

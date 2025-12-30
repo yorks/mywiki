@@ -1,6 +1,7 @@
 ---
 title: TimedRotatingFileHandler 的两个问题
 slug: two-problems-of-TimedRotatingFileHandler
+date: 2015-08-26
 tags:
   - logging
   - python
