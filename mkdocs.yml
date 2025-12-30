@@ -34,7 +34,7 @@ plugins:
   - blog:
       blog_dir: blog        # 博客文章存放目录
       post_date_format: yyyy-MM-dd
-  - tags
+  - tags:
       tags_file: tags.md
 
 markdown_extensions:
