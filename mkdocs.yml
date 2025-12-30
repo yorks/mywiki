@@ -5,6 +5,7 @@ repo_name: GitHub
 
 nav:
   - 首页: index.md
+  - Blog: blog/index.md
   - 标签墙: tags.md
 
 theme:
