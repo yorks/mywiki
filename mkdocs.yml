@@ -39,6 +39,9 @@ plugins:
   - blog:
       blog_dir: blog        # 博客文章存放目录
       post_dir: "{blog}/posts"
+      blog_toc: true
+      post_excerpt: optional
+      post_excerpt_max_authors: 1
       archive: false
       categories: true
       pagination: true
