@@ -7,6 +7,7 @@ nav:
   - 首页: index.md
   - Blog: blog/index.md
   - 标签墙: tags.md
+  - 关于: about.md
 
 theme:
   name: material
