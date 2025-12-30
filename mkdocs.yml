@@ -40,7 +40,7 @@ plugins:
       blog_dir: blog        # 博客文章存放目录
       #post_date_format: yyyy-MM-dd
   - tags:
-      tags_file: tags.md
+      #tags_file: tags.md
 
 markdown_extensions:
   - admonition              # 提示块支持
