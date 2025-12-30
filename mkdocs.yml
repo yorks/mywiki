@@ -38,6 +38,12 @@ plugins:
   - search
   - blog:
       blog_dir: blog        # 博客文章存放目录
+      post_dir: "{blog}"
+      archive: false
+      categories: true
+      pagination: true
+      pagination_per_page: 10
+      pagination_if_single_page: true
       #post_date_format: yyyy-MM-dd
   - tags:
       tags_file: tags.md
