@@ -3,6 +3,10 @@ site_url: https://yorks.github.io/mywiki/
 repo_url: https://github.com/yorks/mywiki
 repo_name: GitHub
 
+nav:
+  - 首页: index.md
+  - 标签墙: tags.md
+
 theme:
   name: material
   language: zh
