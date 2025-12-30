@@ -8,6 +8,7 @@ tags:
   - shadowsock
 ---
 该文主要是针对 ShadowVPN 在 openwrt 上面配置成 Server 端的介绍。
+<!-- more -->
 
 ### 关于ShadowVPN
 关于 ShadownVPN 的介绍除了看其官方的 wiki 文档外，我个人有几点理解:

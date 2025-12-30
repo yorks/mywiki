@@ -14,6 +14,7 @@ tags:
 ### TimedRotatingFileHandler
 之前遇到多进程下面日志轮转的问题，找了好久都没有找到现有的按时间轮转的解决方案。
 决定自己去实现一个，所以翻翻`logging`的`TimedRotatingFileHandler`发现其中比较不合理的问题
+<!-- more -->
 
 #### 轮转时间问题
 ```
