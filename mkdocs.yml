@@ -20,6 +20,7 @@ theme:
     - toc.follow            # 侧边目录跟随
     - content.code.copy     # 代码块复制按钮
     - content.images.lazy
+    - content.tags
   palette:
     - scheme: default       # 默认亮色模式
       primary: teal         # 主题色
@@ -50,7 +51,7 @@ plugins:
       pagination_if_single_page: true
       #post_date_format: yyyy-MM-dd
   - tags:
-      tags_file: tags.md
+      #tags_file: tags.md
 
 markdown_extensions:
   - admonition              # 提示块支持
