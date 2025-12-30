@@ -10,6 +10,11 @@ tags:
   - archlinux
   - cloud
   - disk
+  - grub
+  - initrd
+  - dropbear
+  - ssh
+  - mkinitcpio
 ---
 
 当前云主机提供了公网，家里没有公网IP，只能依赖云主机来做中转，
