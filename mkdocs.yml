@@ -1,0 +1,62 @@
+site_name: K.I.S.S - Keep It Simple, Stupid
+site_url: https://yorks.github.io/mywiki/
+repo_url: https://github.com/yorks/mywiki
+repo_name: GitHub
+
+nav:
+  - 首页: index.md
+  - Blog: blog/index.md
+  - 标签墙: tags.md
+  - 关于: about.md
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  features:
+    - navigation.tabs        # 顶部导航栏
+    - navigation.tracking    # URL随滚动变化
+    - navigation.indexes     # 文件夹可点击
+    - toc.follow            # 侧边目录跟随
+    - content.code.copy     # 代码块复制按钮
+    - content.images.lazy
+    - content.tags
+  palette:
+    - scheme: default       # 默认亮色模式
+      primary: teal         # 主题色
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+    - scheme: slate         # 暗色模式
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至亮色模式
+
+# 插件配置
+plugins:
+  - search
+  - blog:
+      blog_dir: blog        # 博客文章存放目录
+      post_dir: "{blog}/posts"
+      blog_toc: true
+      post_excerpt: optional
+      post_excerpt_max_authors: 1
+      archive: false
+      categories: true
+      pagination: true
+      pagination_per_page: 10
+      pagination_if_single_page: true
+      #post_date_format: yyyy-MM-dd
+  - tags:
+
+markdown_extensions:
+  - admonition              # 提示块支持
+  - pymdownx.highlight:     # 代码高亮
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
