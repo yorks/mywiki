@@ -1,6 +1,6 @@
 ---
 title: 标签墙
-template: tags.html
+tags: []
 ---
 
 # 标签 tags
